@@ -1,8 +1,11 @@
 {
+  "Titulo": {
+    "titulo": "TITULO"
+  },
   "Header": {
     "text": "Header en español"
   },
   "InputText": {
-    "InputText": "HOLA"
+    "InputText": ""
   }
 }

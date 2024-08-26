@@ -1,4 +1,7 @@
 {
+  "Titulo": {
+    "titulo": "TITLE"
+  },
   "Home": {
     "text": "Hello world!"
   },
