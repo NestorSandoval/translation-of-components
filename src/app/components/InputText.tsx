@@ -7,11 +7,11 @@ interface inputProps {
 }
 
 export const InputText: React.FC<inputProps> = ({ name, label }) => {
-  const t = useTranslations("DOS");
+  const t = useTranslations("InputTextName");
 
   return (
     <div className="flex flex-col text-xl">
-      <label htmlFor={name}>{label}</label>
+      <label htmlFor={name}>{t(label)}</label>
       <input
         className="border-2 border-gray-500 rounded-sm p-1"
         type="text"

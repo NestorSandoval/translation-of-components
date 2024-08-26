@@ -10,13 +10,14 @@ import { InputText } from "../components/InputText";
 
 export default function Home() {
   const t = useTranslations("Titulo");
-  const e = useTranslations();
   const messages = useMessages();
 
   return (
     <div className="min-h-screen flex flex-col text-5xl justify-center items-center">
-      <NextIntlClientProvider messages={pick(messages, "Header", "")}>
-        <InputText label={e("FECHA NACIMIENTO")} name="" />
+      <NextIntlClientProvider
+        messages={pick(messages, "Header", "InputTextName")}
+      >
+        <InputText label="" name="" />
         <Header />
         <h1>{t("titulo")}</h1>
       </NextIntlClientProvider>

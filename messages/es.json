@@ -5,7 +5,8 @@
   "Header": {
     "text": "Header en español"
   },
-  "InputText": {
-    "InputText": ""
+  "InputTextName": {
+    "InputText": "Name",
+    "InputTextBrocker": "bloqueado"
   }
 }
